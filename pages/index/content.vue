@@ -65,15 +65,9 @@
               <div class="image-container-fill"></div>
               <div class="image-view" data-width="692" data-height="511">
                 <img
-                  data-original-src="//upload-images.jianshu.io/upload_images/16627522-16fb8556551fa6d0.png"
-                  data-original-width="692"
-                  data-original-height="511"
-                  data-original-format="image/png"
-                  data-original-filesize="80569"
-                  data-image-index="0"
                   style="cursor: zoom-in;"
                   class
-                  src="//upload-images.jianshu.io/upload_images/16627522-16fb8556551fa6d0.png?imageMogr2/auto-orient/strip|imageView2/2/w/692/format/webp"
+                  src="/header/1.jpg"
                 />
               </div>
             </div>
@@ -89,15 +83,9 @@
 
               <div class="image-view" data-width="691" data-height="433">
                 <img
-                  data-original-src="//upload-images.jianshu.io/upload_images/16627522-f5a20753644f1029.png"
-                  data-original-width="691"
-                  data-original-height="433"
-                  data-original-format="image/png"
-                  data-original-filesize="64221"
-                  data-image-index="1"
                   style="cursor: zoom-in;"
                   class
-                  src="//upload-images.jianshu.io/upload_images/16627522-f5a20753644f1029.png?imageMogr2/auto-orient/strip|imageView2/2/w/691/format/webp"
+                  src="/header/1.jpg"
                 />
               </div>
             </div>
@@ -120,12 +108,7 @@
             <div class="_2O0T_w">
               <div class="_2v-h3G">
                 <span class="_2vh4fr" title="冷暖自知_zjz">
-                  <a
-                    class="_1OhGeD"
-                    href="/u/3fd1cc7ddf0c"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >冷暖自知_zjz</a>
+                  冷暖自知_zjz
                 </span>
               </div>
             </div>
