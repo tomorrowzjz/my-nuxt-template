@@ -5,7 +5,11 @@ module.exports = {
   ** Headers of the page
   */
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+    baseUrl: process.env.BASE_URL || 'http://localhost:3007'
+  },
+  server: {
+    port: 3007, // default: 3000
+    host: 'localhost', // default: localhost
   },
   head: {
     title: process.env.npm_package_name || '',

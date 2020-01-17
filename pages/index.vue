@@ -18,6 +18,12 @@
     components: {
       myHeader,
       myFooter
+    },
+    created(){
+      console.log(this.$route)
+      if(this.$route.fullPath === '/'){
+        this.$router.push('/content');
+      }
     }
   }
 

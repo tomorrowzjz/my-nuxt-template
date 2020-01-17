@@ -24,7 +24,7 @@ const index = async (ctx, next) => {
         nickname: "moyufed",
         slug: "245a89132991",
         avatar:
-          "https://cdn2.jianshu.io/assets/default_avatar/13-394c31a9cb492fcb39c27422ca7d2815.jpg"
+          ""
       }
     },
     {
@@ -37,7 +37,7 @@ const index = async (ctx, next) => {
         nickname: "moyufed",
         slug: "245a89132991",
         avatar:
-          "https://cdn2.jianshu.io/assets/default_avatar/13-394c31a9cb492fcb39c27422ca7d2815.jpg"
+          ""
       }
     },
     {
@@ -50,7 +50,7 @@ const index = async (ctx, next) => {
         nickname: "moyufed",
         slug: "245a89132991",
         avatar:
-          "https://cdn2.jianshu.io/assets/default_avatar/13-394c31a9cb492fcb39c27422ca7d2815.jpg"
+          ""
       }
     }
   ];
@@ -112,7 +112,7 @@ const articles = async (ctx, next) => {
       id: 57446127,
       slug: "cefbaf33bdbf",
       list_image_url:
-        "https://upload-images.jianshu.io/upload_images/20184027-114b2215d95a744d.png",
+        "",
       title: "2019年底史上最全Vue框架整理从基础到实战(一)",
       views_count: 1348
     },
@@ -127,7 +127,7 @@ const articles = async (ctx, next) => {
       id: 54904179,
       slug: "88cfd24750fe",
       list_image_url:
-        "https://upload-images.jianshu.io/upload_images/13717038-1bf661c00ce2fb7c",
+        "",
       title: "python爬虫：做一个界面爬虫小软件",
       views_count: 5109
     },
@@ -135,7 +135,7 @@ const articles = async (ctx, next) => {
       id: 54345962,
       slug: "2ac400722d06",
       list_image_url:
-        "https://upload-images.jianshu.io/upload_images/11490866-3356d9c82f426f22.png",
+        "",
       title: "vue 从项目搭建到一些简单操作示例（附项目地址）",
       views_count: 569
     }
@@ -153,7 +153,7 @@ async function start() {
 
   const {
     host = process.env.HOST || "127.0.0.1",
-    port = process.env.PORT || 3000
+    port = process.env.PORT || 3007
   } = nuxt.options.server;
 
   // Build in development
