@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3007'
+    baseUrl: 'http://zhangjz.top:3006'
   },
   server: {
     port: 3007, // default: 3000
@@ -53,15 +53,13 @@ module.exports = {
   ],
   axios: {
     proxy: true, // 表示开启代理
-    prefix: '/api/channel', // 表示给请求url加个前缀 /api
-    credentials: true // 表示跨域请求时是否需要使用凭证
   },
   proxy: {
     '/api': {
       target: 'http://localhost:3007', // 目标接口域名
       changeOrigin: true, // 表示是否跨域
       pathRewrite: {
-        '^/api': '/', // 把 /api 替换成 /
+        '^/api': '/api', // 把 /api 替换成 /
       }
     }
   },
