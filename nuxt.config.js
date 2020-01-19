@@ -49,7 +49,22 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios','@nuxtjs/proxy'
   ],
+  axios: {
+    proxy: true, // 表示开启代理
+    prefix: '/api/channel', // 表示给请求url加个前缀 /api
+    credentials: true // 表示跨域请求时是否需要使用凭证
+  },
+  proxy: {
+    '/api': {
+      target: 'http://localhost:3007', // 目标接口域名
+      changeOrigin: true, // 表示是否跨域
+      pathRewrite: {
+        '^/api': '/', // 把 /api 替换成 /
+      }
+    }
+  },
   /*
   ** Build configuration
   */
@@ -59,6 +74,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    }
+    },
+    vendor: ['axios'] //为防止重复打包
   }
 }
